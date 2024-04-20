@@ -34,12 +34,19 @@ CREATE TABLE `sanpham` (
 
 
 INSERT INTO `sanpham` (`masanpham`, `tensanpham`, `hinhanh`, `boxuly`, `hedieuhanh`, `thoigianbaohanh`, `maloai`, `khuvuckho`, `thuonghieu`,  `trangthai`) 
-VALUES (1, 'LÁP TÓP GA MINH', 'warning.png', 'I9 202444', 'MAC OS', '1 năm', 'GM1', 'Kho A', 'Apple', 1),
-(2, 'Laptop Lenovo Gaming Legion Slim 5', 'warning.png', ' i7 1355U', 'Win 11', '1 năm', 'LGS5', 'Kho B', 'Lenovo', 1),
-(3, 'Laptop Lenovo Gaming Legion Pro 5', 'warning.png', 'i714650HX', 'Win 11', '1 năm', 'LGP5', 'Kho B', 'Lenovo', 1),
-(4, 'Laptop Lenovo Gaming Legion 5', 'warning.png', 'i714650HX', 'Win 11', '1 năm', 'LG5', 'Kho B', 'Lenovo', 1),
-(5, 'Laptop Dell Inspiron 15', 'warning.png', ' i7 1355U', 'Win 10', '1 năm', 'DI15', 'Kho A', 'Dell', 1),
-(6, 'Laptop Dell Inspiron 14', 'warning.png', ' i5 11400H', 'Win 10', '1 năm', 'DI14', 'Kho A', 'Dell', 1);
+VALUES 
+(1, 'Laptop Lenovo Gaming Legion Slim 5', 'warning.png', ' i7 1355U', 'Win 11', '1 năm', 'LGS5', 'Kho B', 'Lenovo', 1),
+(2, 'Laptop Lenovo Gaming Legion Pro 5', 'warning.png', 'i714650HX', 'Win 11', '1 năm', 'LGP5', 'Kho B', 'Lenovo', 1),
+(3, 'Laptop Lenovo Gaming Legion 5', 'warning.png', 'i714650HX', 'Win 11', '1 năm', 'LG5', 'Kho B', 'Lenovo', 1),
+(4, 'Laptop Dell Inspiron 15', 'warning.png', ' i7 1355U', 'Win 10', '1 năm', 'DI15', 'Kho A', 'Dell', 1),
+(5, 'Laptop Dell Inspiron 14', 'warning.png', ' i5 11400H', 'Win 10', '1 năm', 'DI14', 'Kho A', 'Dell', 1),
+(6, 'Laptop Dell Vostro 15', 'warning.png', 'i5 1235U', 'Win 11', '1 năm', 'DV15', 'Kho A', 'Dell', 1),
+(7, 'Laptop Asus Vivobook 15', 'warning.png', 'i5 1235U', 'Win 11', '1 năm', 'AV15', 'Kho C', 'Asus', 1),
+(8, 'Laptop Asus Vivobook 16', 'warning.png', 'i5 1335U', 'Win 11', '1 năm', 'AV16', 'Kho C', 'Asus', 1),
+(9, 'Laptop Asus TUF Gaming F15', 'warning.png', 'i5 11400H', 'Win 11', '1 năm', 'AT15', 'Kho C', 'Asus', 1),
+(10, 'Laptop Acer Gaming Nitro 5 Tiger', 'warning.png', 'i7 12700H', 'Win 11', '1 năm', 'ACN5', 'Kho D', 'Acer', 1),
+(11, 'Laptop Acer Gamng Aspire 7', 'warning.png', 'i5 12450H', 'Win 11', '1 năm', 'ACA7', 'Kho D', 'Acer', 1),
+(12, 'Laptop Acer Aspire Vero', 'warning.png', 'i5 1155G7', 'Win 11', '1 năm', 'ACAV', 'Kho D', 'Acer', 1);
 
 --
 -- Table structure for table `nhanvien`
